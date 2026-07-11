@@ -133,6 +133,10 @@ h1 p{
     margin: auto;
 }
 
+input{
+    padding: 5px 10px;
+}
+
 .footer{
     background-color: #1a2027;
     padding: 40px;
