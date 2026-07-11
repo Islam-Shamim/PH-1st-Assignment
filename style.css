@@ -9,7 +9,7 @@ navber{
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    margin: 10px 20px;
+    max-width: 1200px;
 }
 
 navber a{
@@ -127,6 +127,39 @@ h1 p{
 }
 .features-list li{
     margin-bottom: 10px;
+}
+
+.reviews{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.reviews h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.review-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0 20px;
+}
+
+.review-card{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f1f1;
+}
+
+.review-card .filled{
+    color: #d145ca;
+}
+
+.review-card .empty{
+    color: #ccc;
 }
 
 .stay-in-touch{
