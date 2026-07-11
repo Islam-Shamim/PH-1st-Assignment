@@ -59,7 +59,8 @@ h1 p{
 }
 
 .speakers{
-    margin: 50px 40px;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .speakers h1{
