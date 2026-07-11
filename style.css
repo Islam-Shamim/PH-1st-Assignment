@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 10px 20px;
+}
+
+navber a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(39, 39, 39, 0.6)),url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h1 p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hero-btn{
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.speakers{
+    margin: 50px 40px;
+}
+
+.speakers h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.speaker-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 0 20px;
+}
+
+.speaker-card{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.speaker-card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.speaker-card .info{
+    padding-left: 20px;
+}
+
+.speaker-card .info h3{
+    color:#007BFF
+}
+
+.package{
+    margin: 50px 100px;
+}
+
+.package-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.package-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0 20px;
+}
+
+.package-card{
+    border-radius: 10px;
+    border: 1px solid #e7e5e5;
+    padding: 20px;
+    background-color: #f0f1f1;
+}
+
+.package-card.featured{
+    background-color: #19191a;
+    color: #f8f9fa;
+}
+
+.price{
+    font-size: 36px;
+    margin: 10px 0;
+}
+.features-list li{
+    margin-bottom: 10px;
+}
+
+.stay-in-touch{
+    padding: 50px 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer{
+    background-color: #1a2027;
+    padding: 40px;
+    color:#f8f9fa
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+.footer-policy{
+    display: flex;
+    gap: 20px;
+}
+
