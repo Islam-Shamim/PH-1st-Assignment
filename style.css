@@ -153,6 +153,7 @@ input{
 .footer-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 900px;
 }
